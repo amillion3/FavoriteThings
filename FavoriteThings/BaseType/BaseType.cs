@@ -4,9 +4,9 @@ namespace FavoriteThings.BaseType
 {
     abstract class BaseType
     {
-        private string _bikeName;
-        private string _bikeDisplacement;
-        private int _bikeCylinders;
+        private readonly string _bikeName;
+        private readonly string _bikeDisplacement;
+        private readonly int _bikeCylinders;
 
         public BaseType(string bikeDisplacement, int bikeCylinders, string bikeName)
         {

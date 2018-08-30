@@ -6,7 +6,6 @@ namespace FavoriteThings.TriumphStreetTriple
     {
         public TriumphStreetTriple() : base("765 cc", 3, "Triumph Street Triple")
         {
-            Console.WriteLine("BraapBraap");
         }
     }
 }
