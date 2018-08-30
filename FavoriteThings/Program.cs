@@ -6,7 +6,7 @@ namespace FavoriteThings
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var Honda = new HondaRC51.HondaRC51();
         }
     }
 }
