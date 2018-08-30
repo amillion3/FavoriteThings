@@ -22,6 +22,8 @@ namespace FavoriteThings.BaseType
         {
             Console.WriteLine($@"The {_bikeName},");
             Console.WriteLine($@"with { _bikeCylinders} cylinders and {_bikeDisplacement}.");
+            Console.WriteLine("Press enter to continue");
+            Console.ReadLine();
         }
     }
 }

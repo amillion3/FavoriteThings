@@ -6,7 +6,7 @@ namespace FavoriteThings.HondaRC51
     {
         public HondaRC51() : base("999 cc", 2, "Honda RC51")
         {
-            Console.WriteLine("hi");
+            Console.WriteLine("VroomVroom");
         }
     }
 }
