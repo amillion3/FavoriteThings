@@ -13,9 +13,16 @@ namespace FavoriteThings
             var Kawasaki = new KawasakiKR1S.KawasakiKR1S();
 
             // Call method on newly created instances
+            Honda.HondaSound();
             Honda.PrintStuff();
+
+            Triumph.TriumphSound();
             Triumph.PrintStuff();
+
+            Suzuki.SuzukiSound();
             Suzuki.PrintStuff();
+
+            Kawasaki.KawasakiSound();
             Kawasaki.PrintStuff();
         }
        

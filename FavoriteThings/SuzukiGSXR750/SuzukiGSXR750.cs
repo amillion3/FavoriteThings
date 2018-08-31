@@ -7,6 +7,11 @@ namespace FavoriteThings.SuzukiGSXR750
         public SuzukiGSXR750() : base("749 cc", 4, "Suzuki GSX-R 750")
         {
         }
+        public void SuzukiSound()
+        {
+            Console.WriteLine("The Suzuki says, BraaapBraaaap!!");
+            Console.WriteLine("");
+        }
 
     }
 }
