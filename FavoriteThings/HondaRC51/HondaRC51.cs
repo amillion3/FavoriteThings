@@ -8,5 +8,11 @@ namespace FavoriteThings.HondaRC51
         public HondaRC51() : base("999 cc", 2, "Honda RC51")
         {
         }
+
+        public void HondaSound()
+        {
+            Console.WriteLine("The Honda says, VroomVroom!");
+            Console.WriteLine("");
+        }
     }
 }
