@@ -7,10 +7,8 @@ namespace FavoriteThings.BaseType
         private readonly string _bikeName;
         private readonly string _bikeDisplacement;
         private readonly int _bikeCylinders;
-        private readonly int _bikeWheels;
-        private readonly int _bikeSpeeds;
 
-        public void MotorCycleBase(string bikeName, string bikeDisplacement, int bikeCylinders)
+        public BaseType(string bikeDisplacement, int bikeCylinders, string bikeName)
         {
             _bikeName = bikeName;
             _bikeDisplacement = bikeDisplacement;
@@ -24,6 +22,8 @@ namespace FavoriteThings.BaseType
         {
             Console.WriteLine($@"The {_bikeName},");
             Console.WriteLine($@"with { _bikeCylinders} cylinders and {_bikeDisplacement}.");
+            Console.WriteLine("Press enter to continue");
+            Console.ReadLine();
         }
     }
 }
